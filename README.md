@@ -37,8 +37,9 @@ External Email Service
 Setup Instructions:
 
 Clone the repository:
-bash
-git clone <repository_url>
+
+git clone 
+https://github.com/Jekmen1/Auction_Platform_Api.git
 
 Navigate to the project directory:
 cd Auction_Platform_API
