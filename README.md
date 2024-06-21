@@ -34,20 +34,43 @@ PostgreSQL
 JWT Authentication
 External Email Service
 
-Setup Instructions:
+.
 
-Clone the repository:
+###  Installation
 
-git clone 
+1. Clone the  repository:
+
+```sh
 https://github.com/Jekmen1/Auction_Platform_Api.git
+```
 
-Navigate to the project directory:
+2. Change to the project directory:
+
+```sh
 cd Auction_Platform_API
+```
 
-Set up Docker and Docker Compose.
-Create a .env file based on the provided .env.example file and fill in the necessary environment variables.
+3. Install the dependencies:
+
+```sh
+pip install -r requirements.txt
+```
+
+###  Running 
+
+Use the following command to run :
+
+```sh
+python manage.py runserver
+```
 
 Build and run the Docker containers:
-docker-compose up --build
 
-Access the API at http://localhost:8000/.
+```sh
+docker-compose up --build
+```
+
+Access the API at http://localhost:8000/
+
+
+
