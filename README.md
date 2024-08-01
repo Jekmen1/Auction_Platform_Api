@@ -14,25 +14,32 @@ Endpoints:
 
 User Management:
 
-POST /api/users/: Register a new user.
+POST
+/api/users/: Register a new user.
 
-GET /api/users/: Retrieve a list of users.
+GET
+/api/users/: Retrieve a list of users.
 
 Authentication:
 
-POST /api/token/: Obtain JWT token for authentication.
+POST
+/api/token/: Obtain JWT token for authentication.
 
-POST /api/token/refresh/: Refresh JWT token.
+POST
+/api/token/refresh/: Refresh JWT token.
 
 Product Management:
 
-GET /products/: Retrieve a list of products and create a new product.
+GET
+/products/: Retrieve a list of products and create a new product.
 
-GET /products/<int:pk>/: Retrieve, update, or delete a specific product.
+GET
+/products/<int:pk>/: Retrieve, update, or delete a specific product.
 
 Bidding:
 
-POST /products/<int:product_id>/bids/: Place a bid on a specific product.
+POST
+/products/<int:product_id>/bids/: Place a bid on a specific product.
 
 Technologies Used:
 
